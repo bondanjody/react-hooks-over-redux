@@ -14,5 +14,5 @@ const useStore = () => {
     return () => {
       listeners = listeners.filter((li) => li !== setState);
     };
-  }, []);
+  }, [setState]);
 };
