@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 
+// Digunakan untuk menyimpan data global (oleh karena itu ia diletakkan di luar function)
 let globalState = {};
 let listeners = [];
 let actions = {};
